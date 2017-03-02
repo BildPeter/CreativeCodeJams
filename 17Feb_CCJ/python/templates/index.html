@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ author }}'s Punk Song Generator</title>
+  </head>
+
+  <body>
+    <h2>Hello {{ name }}!</h2>
+    <h2>TEXT: {{ sentenceOutput }}!</h2>
+    <form action="/sentence" method="post">
+      <input type="text" name="Start word">
+      <input type="submit" value="Get new sentence">
+    </form>
+  </body>
+</html>
