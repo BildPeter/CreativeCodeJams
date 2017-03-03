@@ -1,0 +1,5 @@
+GDAL==1.11.1
+py==1.4.26
+pytest==2.7.0
+TBB==0.1
+vboxapi==1.0
